@@ -81,7 +81,7 @@ For each primary feed, the system identifies the three most similar alternative 
 The PC1 scores ranked the feeds as follows:
 
 | Feed      | PC1 Score |
-| --------- | --------: |   |
+| --------- | --------: |
 |=======================|
 | Sunflower |     1.534 |
 | Casein    |     1.285 |

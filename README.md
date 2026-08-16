@@ -189,7 +189,6 @@ The projects primarily use **Python** and the following data science and machine
 * Scikit-learn
 * Matplotlib
 * Seaborn
-* Jupyter Notebook
 
 ## These technologies are used across the individual projects for data manipulation, visualization, dimensionality reduction, machine learning, and model evaluation.
 

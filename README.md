@@ -10,9 +10,9 @@ The projects demonstrate how machine learning techniques can be applied to real-
 
 | Project                                   | Machine Learning Task                | Main Techniques         |
 | ----------------------------------------- | ------------------------------------ | ----------------------- |
-| 🐔 **Chicken Feed Recommendation System** | Recommendation / Similarity Analysis | PCA, Cosine Similarity  |
-| 🚔 **US Crime Pattern Analysis**          | Unsupervised Learning / Clustering   | K-Means, GMM, PCA       |
-| 🍷 **Wine Classification Model**          | Supervised Learning / Classification | k-NN, PCA, GridSearchCV |
+| **Chicken Feed Recommendation System** | Recommendation / Similarity Analysis | PCA, Cosine Similarity  |
+| **US Crime Pattern Analysis**          | Unsupervised Learning / Clustering   | K-Means, GMM, PCA       |
+| **Wine Classification Model**          | Supervised Learning / Classification | k-NN, PCA, GridSearchCV |
 
 ---
 
@@ -325,15 +325,7 @@ Through these projects, the following skills are demonstrated:
 * Data visualization
 * Business and policy interpretation
 
----
-
-# Important Notes
-
-The results presented in these projects are based on the datasets and methodologies described in their respective notebooks.
-
-Machine learning results should be interpreted within the limitations of the available data. High model performance on a particular dataset does not automatically guarantee equivalent performance on new or production data. Similarly, clustering results identify statistical patterns and should not automatically be interpreted as evidence of causation.
-
----
+--
 
 # About This Portfolio
 
@@ -347,9 +339,9 @@ The projects cover different machine learning approaches and application areas w
 
 | Project                        | Problem Type   | Main Model/Method       | Main Result                          |
 | ------------------------------ | -------------- | ----------------------- | ------------------------------------ |
-| 🐔 Chicken Feed Recommendation | Recommendation | PCA + Cosine Similarity | Identified similar feed alternatives |
-| 🚔 US Crime Analysis           | Clustering     | K-Means + GMM           | GMM achieved 0.5610 Silhouette Score |
-| 🍷 Wine Classification         | Classification | PCA + k-NN              | 100% test accuracy on provided split |
+|  Feed Recommendation | Recommendation | PCA + Cosine Similarity | Identified similar feed alternatives |
+| US Crime Analysis           | Clustering     | K-Means + GMM           | GMM achieved 0.5610 Silhouette Score |
+| Wine Classification         | Classification | PCA + k-NN              | 100% test accuracy on provided split |
 
 ---
 

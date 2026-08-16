@@ -8,14 +8,6 @@ The projects demonstrate how machine learning techniques can be applied to real-
 
 ## Projects Overview
 
-| Project                                   | Machine Learning Task                | Main Techniques         |
-| ----------------------------------------- | ------------------------------------ | ----------------------- |
-| **Chicken Feed Recommendation System** | Recommendation / Similarity Analysis | PCA, Cosine Similarity  |
-| **US Crime Pattern Analysis**          | Unsupervised Learning / Clustering   | K-Means, GMM, PCA       |
-| **Wine Classification Model**          | Supervised Learning / Classification | k-NN, PCA, GridSearchCV |
-
----
-
 # 1. Chicken Weight Feed Recommendation System
 
 This project develops a **feed recommendation system** that identifies alternative chicken feed types based on their observed chicken-weight performance.
@@ -60,7 +52,7 @@ Some of the strongest similarities identified were:
 
 The project demonstrates how similarity-based machine learning techniques can be used to identify potential alternatives based on historical performance.
 
-**Project folder:** `chicken-feed-recommendation/`
+**Project folder:** `Recommendation_System/`
 
 ---
 
@@ -117,7 +109,7 @@ The results can support:
 
 The clusters represent **statistical similarities**, not evidence that a particular policy or socioeconomic factor causes crime levels.
 
-**Project folder:** `us-crime-analysis/`
+**Project folder:** `Clustering/`
 
 ---
 
@@ -184,44 +176,9 @@ compared with **97.22%** for the baseline k-NN model.
 * Identification of unusual chemical profiles
 * Reduction of manual classification effort
 
-**Project folder:** `wine-classification/`
+**Project folder:** `Classification_model/`
 
 ---
-
-# Machine Learning Techniques Covered
-
-Across these projects, the portfolio demonstrates several important machine learning concepts:
-
-### Supervised Learning
-
-* k-Nearest Neighbors (k-NN)
-* Classification
-* Hyperparameter tuning
-* Cross-validation
-* Model evaluation
-
-### Unsupervised Learning
-
-* K-Means clustering
-* Gaussian Mixture Models
-* Similarity analysis
-
-### Dimensionality Reduction
-
-* Principal Component Analysis (PCA)
-
-### Data Analysis
-
-* Exploratory Data Analysis
-* Data cleaning
-* Feature selection
-* Standardization
-* Correlation analysis
-* Statistical summaries
-* Data visualization
-
----
-
 # Technologies Used
 
 The projects primarily use **Python** and the following data science and machine learning libraries:
@@ -239,54 +196,30 @@ The projects primarily use **Python** and the following data science and machine
 # Repository Structure
 
 ```text
-machine-learning-projects/
+Data Science Classification, Recommendation Systems, and Clustering Project/
 │
-├── chicken-feed-recommendation/
+├── Recommendation_Systems/
 │   ├── Chickwts.ipynb
 │   ├── chickwts.csv
 │   └── README.md
 │
-├── us-crime-analysis/
+├── Clustering/
 │   ├── USArrests.ipynb
 │   ├── USArrests.csv
 │   └── README.md
 │
-├── wine-classification/
+├── Classification_Model/
 │   ├── wine.ipynb
 │   ├── wine.csv
 │   └── README.md
 │
 └── README.md
 ```
-
-> The exact filenames and folders should be adjusted to match the files actually present in the repository.
-
----
-
 # Getting Started
 
 ## 1. Clone the Repository
-
-```bash
-git clone <your-repository-url>
-cd machine-learning-projects
-```
-
 ## 2. Install the Required Libraries
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn jupyter
-```
-
 ## 3. Launch Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-Open the notebook for the project you want to explore and run the cells from top to bottom.
-
----
 
 # Project Goals
 
